@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.androidaudhitory.group_1.halaman3"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/tundraimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/tundra" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tundra Adventure"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:padding="20dp"/>
+        </TableRow>
+
+        <ImageButton
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/gunung_kerinci" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mountainering"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:padding="20dp"/>
+        </TableRow>
+
+        <ImageButton
+            android:id="@+id/galapagos"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/galapagos"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remote island"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:padding="20dp"/>
+        </TableRow>
+
+    </LinearLayout>
+
+</ScrollView>
