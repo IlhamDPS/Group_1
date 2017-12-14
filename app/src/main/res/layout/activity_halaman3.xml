@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
@@ -8,11 +8,12 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context="com.androidaudhitory.group_1.halaman3"
         android:orientation="vertical">
 
         <ImageButton
+            android:contentDescription="@string/send_to_activity"
             android:id="@+id/tundraimage"
             android:layout_width="match_parent"
             android:layout_height="200dp"
@@ -24,12 +25,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Tundra Adventure"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textAlignment="center"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                tools:ignore="HardcodedText,SpUsage" />
         </TableRow>
 
         <ImageButton
+            android:contentDescription="@string/send_to_activity"
             android:id="@+id/image2"
             android:layout_width="match_parent"
             android:layout_height="200dp"
@@ -42,16 +45,19 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Mountainering"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textAlignment="center"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                tools:ignore="HardcodedText" />
         </TableRow>
 
         <ImageButton
+            android:contentDescription="@string/send_to_activity"
             android:id="@+id/galapagos"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:src="@drawable/galapagos"/>
+            android:src="@drawable/galapagos"
+            tools:ignore="HardcodedText" />
 
         <TableRow
             android:layout_width="match_parent"
@@ -60,9 +66,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Remote island"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textAlignment="center"
-                android:padding="20dp"/>
+                android:padding="20dp"
+                tools:ignore="HardcodedText" />
         </TableRow>
 
     </LinearLayout>
