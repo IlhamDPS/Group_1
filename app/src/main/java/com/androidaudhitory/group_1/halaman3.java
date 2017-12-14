@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TableLayout;
 
 import com.androidaudhitory.group_1.halaman3content.galapagos;
 import com.androidaudhitory.group_1.halaman3content.gunung_kerinci;
@@ -20,7 +21,17 @@ public class halaman3 extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman3);
 
-        ImageButton totundra = (ImageButton) findViewById(R.id.tundraimage);
+        toTundra();
+
+        toMountain();
+
+        toGalapagos();
+
+    }
+
+    protected void toTundra()
+    {
+        TableLayout totundra = (TableLayout) findViewById(R.id.tundraimage);
         totundra.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -31,7 +42,21 @@ public class halaman3 extends AppCompatActivity
             }
         });
 
-        ImageButton tomountain = (ImageButton) findViewById(R.id.image2);
+        ImageButton totundra2 = (ImageButton) findViewById(R.id.tundraimage2);
+        totundra2.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent totundra2 = new Intent(halaman3.this, tundra.class);
+                startActivity(totundra2);
+            }
+        });
+    }
+
+    protected void toMountain()
+    {
+        TableLayout tomountain = (TableLayout) findViewById(R.id.image2);
         tomountain.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -42,8 +67,33 @@ public class halaman3 extends AppCompatActivity
             }
         });
 
-        ImageButton togalapagos = (ImageButton) findViewById(R.id.galapagos);
-        togalapagos.setOnClickListener(new View.OnClickListener() 
+        ImageButton tomountain2 = (ImageButton) findViewById(R.id.image22);
+        tomountain2.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent tomountain = new Intent(halaman3.this, gunung_kerinci.class);
+                startActivity(tomountain);
+            }
+        });
+    }
+
+    protected void toGalapagos()
+    {
+        TableLayout togalapagos = (TableLayout) findViewById(R.id.galapagos);
+        togalapagos.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent togalapagos = new Intent(halaman3.this, galapagos.class);
+                startActivity(togalapagos);
+            }
+        });
+
+        ImageButton togalapagos2 = (ImageButton) findViewById(R.id.galapagos2);
+        togalapagos2.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)

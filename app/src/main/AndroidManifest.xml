@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/weird_lanscape"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -18,7 +18,7 @@
         <activity android:name=".halaman3" />
         <activity android:name=".halaman3content.tundra" />
         <activity android:name=".halaman3content.gunung_kerinci" />
-        <activity android:name=".halaman3content.galapagos"></activity>
+        <activity android:name=".halaman3content.galapagos" />
     </application>
 
 </manifest>

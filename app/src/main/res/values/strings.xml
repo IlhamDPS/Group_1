@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Group_1</string>
+    <string name="send_to_activity">sendToActivity</string>
+    <string name="image">image</string>
 </resources>
