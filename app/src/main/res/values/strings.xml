@@ -1,8 +1,13 @@
 <resources>
     <string name="app_name">Group_1</string>
+<<<<<<< HEAD
     <string name="travel"><b>Traveling through </b></string>
     <string name="nama_tempat"><b>Tundra, Indonesia </b></string>
     <string name="alamat_email">www.Group1.co.id</string>
     <string name="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue sit amet elementum venenatis. Praesent placerat, nisi tempor molestie aliquet, felis odio tincidunt justo, nec consequat nulla sem ac neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas ac nisl ac lacus gravida aliquam. Quisque rutrum libero ac malesuada maximus. Sed fermentum, nibh auctor facilisis scelerisque, quam risus rhoncus justo, at imperdiet lorem sem nec lectus. Etiam elementum convallis lorem. Suspendisse eget odio euismod sapien varius pellentesque. Vivamus non pulvinar sem. Sed nunc sem, molestie eu tellus at, sollicitudin sagittis nisl. Aenean ornare turpis mi, eget blandit quam blandit id. Praesent vel tortor arcu. Etiam pharetra purus a aliquam vulputate. </string>
     <string name="content_dua">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue sit amet elementum venenatis. Praesent placerat, nisi tempor molestie aliquet, felis odio tincidunt justo, nec consequat nulla sem ac neque. </string>
+=======
+    <string name="send_to_activity">sendToActivity</string>
+    <string name="image">image</string>
+>>>>>>> 9bdec0147ca46f252f2cb26dcf38e7f35fa2fdcf
 </resources>
