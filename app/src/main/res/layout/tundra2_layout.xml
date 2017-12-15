@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tundra2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:scrollbarSize="0dp"
+    android:background="@drawable/tundra_blur"
+    tools:context="com.androidaudhitory.group_1.tundra2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/travel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/travel"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:fontFamily="casual"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/nama_tempat"
+            android:layout_below="@+id/travel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama_tempat"
+            android:textColor="#ffffff"
+            android:fontFamily="casual"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"/>
+        <TextView
+            android:id="@+id/alamat_email"
+            android:layout_below="@+id/nama_tempat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alamat_email"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="casual"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/content"
+            android:layout_below="@id/alamat_email"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginTop="50dp"
+            android:textSize="15sp"
+            android:text="@string/content_dua"/>
+
+        <TextView
+            android:id="@+id/see"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/content"
+            android:text="Things to see"
+            android:fontFamily="casual"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            tools:ignore="HardcodedText" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/totundramini"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/light_blue_circle"
+            android:layout_below="@+id/see"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Click!"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/totundramini"
+            android:layout_marginTop="-36dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </RelativeLayout>
+</ScrollView>
+

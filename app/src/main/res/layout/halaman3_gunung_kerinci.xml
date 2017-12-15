@@ -5,14 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.androidaudhitory.group_1.halaman3content.gunung_kerinci"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#a6da00">
 
     <ImageView
         android:contentDescription="@string/image"
         android:id="@+id/gunung_kerinci"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="@drawable/gunung_kerinci" />
+        android:background="@drawable/gunung_kerinci_blur" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,9 +21,10 @@
         android:layout_alignTop="@+id/gunung_kerinci"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
+        android:fontFamily="casual"
         android:text="Great mountain"
         android:textColor="@color/mountain_text"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         tools:ignore="HardcodedText" />
 

@@ -6,14 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity
+public class mainpage extends AppCompatActivity
 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.mainpage_layout);
 
         Button button = (Button) findViewById(R.id.tohal3);
         button.setOnClickListener(new View.OnClickListener()
@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent tohal3 = new Intent(MainActivity.this,halaman3.class);
+                Intent tohal3 = new Intent(mainpage.this,menu.class);
                 startActivity(tohal3);
             }
         });
