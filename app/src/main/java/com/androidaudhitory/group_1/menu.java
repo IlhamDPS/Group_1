@@ -9,17 +9,17 @@ import android.widget.TableLayout;
 
 import com.androidaudhitory.group_1.halaman3content.galapagos;
 import com.androidaudhitory.group_1.halaman3content.gunung_kerinci;
-import com.androidaudhitory.group_1.halaman3content.tundra;
+import com.androidaudhitory.group_1.halaman3content.tundra3minimenu;
 
 
-public class halaman3 extends AppCompatActivity
+public class menu extends AppCompatActivity
 {
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_halaman3);
+        setContentView(R.layout.menu_layout);
 
         toTundra();
 
@@ -37,7 +37,7 @@ public class halaman3 extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent totundra = new Intent(halaman3.this, tundra.class);
+                Intent totundra = new Intent(menu.this, tundra1.class);
                 startActivity(totundra);
             }
         });
@@ -48,7 +48,7 @@ public class halaman3 extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent totundra2 = new Intent(halaman3.this, tundra.class);
+                Intent totundra2 = new Intent(menu.this, tundra1.class);
                 startActivity(totundra2);
             }
         });
@@ -62,7 +62,7 @@ public class halaman3 extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent tomountain = new Intent(halaman3.this, gunung_kerinci.class);
+                Intent tomountain = new Intent(menu.this, gunung_kerinci.class);
                 startActivity(tomountain);
             }
         });
@@ -73,7 +73,7 @@ public class halaman3 extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent tomountain = new Intent(halaman3.this, gunung_kerinci.class);
+                Intent tomountain = new Intent(menu.this, gunung_kerinci.class);
                 startActivity(tomountain);
             }
         });
@@ -87,7 +87,7 @@ public class halaman3 extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent togalapagos = new Intent(halaman3.this, galapagos.class);
+                Intent togalapagos = new Intent(menu.this, galapagos.class);
                 startActivity(togalapagos);
             }
         });
@@ -98,7 +98,7 @@ public class halaman3 extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent togalapagos = new Intent(halaman3.this, galapagos.class);
+                Intent togalapagos = new Intent(menu.this, galapagos.class);
                 startActivity(togalapagos);
             }
         });
