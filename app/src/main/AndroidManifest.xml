@@ -19,11 +19,8 @@
         <activity android:name=".halaman3content.tundra" />
         <activity android:name=".halaman3content.gunung_kerinci" />
         <activity android:name=".halaman3content.galapagos" />
-<<<<<<< HEAD
         <activity android:name=".halaman5" />
         <activity android:name=".halaman5_klik"></activity>
-=======
->>>>>>> 9bdec0147ca46f252f2cb26dcf38e7f35fa2fdcf
     </application>
 
 </manifest>

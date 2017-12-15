@@ -21,7 +21,7 @@ public class halaman5 extends AppCompatActivity {
 
     public void onClick(){
 
-        btn = (Button) find ViewById(R.id.btn1);
+        btn = (Button) findViewById(R.id.btn1);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
