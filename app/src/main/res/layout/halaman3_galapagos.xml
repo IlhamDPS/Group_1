@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.androidaudhitory.group_1.halaman3content.galapagos"
+    tools:context="com.androidaudhitory.group_1.menu_content.galapagos"
     android:background="#a6daff">
 
     <ImageView

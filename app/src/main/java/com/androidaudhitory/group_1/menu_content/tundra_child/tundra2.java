@@ -1,11 +1,11 @@
-package com.androidaudhitory.group_1;
+package com.androidaudhitory.group_1.menu_content.tundra_child;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import com.androidaudhitory.group_1.halaman3content.tundra3minimenu;
+import com.androidaudhitory.group_1.R;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 

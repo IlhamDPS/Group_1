@@ -7,4 +7,9 @@
     <string name="content_dua">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer viverra augue sit amet elementum venenatis. Praesent placerat, nisi tempor molestie aliquet, felis odio tincidunt justo, nec consequat nulla sem ac neque. </string>
     <string name="send_to_activity">sendToActivity</string>
     <string name="image">image</string>
+    <string name="username">username</string>
+    <string name="input">input</string>
+    <string name="password">password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">sign_up</string>
 </resources>

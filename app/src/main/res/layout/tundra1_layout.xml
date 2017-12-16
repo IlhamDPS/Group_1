@@ -5,7 +5,7 @@
     android:id="@+id/tundra1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.androidaudhitory.group_1.tundra1"
+    tools:context="com.androidaudhitory.group_1.menu_content.tundra1"
     android:scrollbarSize="0dp">
 
     <LinearLayout

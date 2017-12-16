@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.androidaudhitory.group_1.halaman3content.gunung_kerinci"
+    tools:context="com.androidaudhitory.group_1.menu_content.gunung_kerinci"
     android:orientation="vertical"
     android:background="#a6da00">
 

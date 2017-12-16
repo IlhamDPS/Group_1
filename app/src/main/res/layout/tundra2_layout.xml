@@ -8,7 +8,7 @@
     android:padding="20dp"
     android:scrollbarSize="0dp"
     android:background="@drawable/tundra_blur"
-    tools:context="com.androidaudhitory.group_1.tundra2">
+    tools:context="com.androidaudhitory.group_1.menu_content.tundra_child.tundra2">
 
     <RelativeLayout
         android:layout_width="match_parent"

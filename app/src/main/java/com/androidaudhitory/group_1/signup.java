@@ -1,15 +1,13 @@
-package com.androidaudhitory.group_1.halaman3content;
+package com.androidaudhitory.group_1;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.androidaudhitory.group_1.R;
-
-public class galapagos extends AppCompatActivity {
+public class signup extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.halaman3_galapagos);
+        setContentView(R.layout.singup_layout);
     }
 }
