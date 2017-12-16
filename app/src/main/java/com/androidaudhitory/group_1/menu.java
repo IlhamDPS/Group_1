@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TableLayout;
 
-import com.androidaudhitory.group_1.halaman3content.galapagos;
-import com.androidaudhitory.group_1.halaman3content.gunung_kerinci;
-import com.androidaudhitory.group_1.halaman3content.tundra3minimenu;
+import com.androidaudhitory.group_1.menu_content.galapagos;
+import com.androidaudhitory.group_1.menu_content.gunung_kerinci;
+import com.androidaudhitory.group_1.menu_content.tundra1;
 
 
 public class menu extends AppCompatActivity

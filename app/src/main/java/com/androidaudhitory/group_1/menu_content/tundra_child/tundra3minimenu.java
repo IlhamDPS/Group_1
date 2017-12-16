@@ -1,4 +1,4 @@
-package com.androidaudhitory.group_1.halaman3content;
+package com.androidaudhitory.group_1.menu_content.tundra_child;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

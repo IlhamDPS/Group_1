@@ -7,7 +7,7 @@
     android:scrollbarSize="0dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="#cfcfcf"
-    tools:context="com.androidaudhitory.group_1.halaman3content.tundra3minimenu">
+    tools:context="com.androidaudhitory.group_1.menu_content.tundra_child.tundra3minimenu">
 
     <RelativeLayout
         xmlns:android="http://schemas.android.com/apk/res/android"

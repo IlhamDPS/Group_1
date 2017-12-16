@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.androidaudhitory.group_1">
 
     <application
@@ -16,11 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".menu" />
-        <activity android:name=".halaman3content.tundra3minimenu" />
-        <activity android:name=".halaman3content.gunung_kerinci" />
-        <activity android:name=".halaman3content.galapagos" />
-        <activity android:name=".tundra1" />
-        <activity android:name=".tundra2"/>
+        <activity android:name=".menu_content.tundra_child.tundra3minimenu" />
+        <activity android:name=".menu_content.gunung_kerinci" />
+        <activity android:name=".menu_content.galapagos" />
+        <activity android:name=".menu_content.tundra1" />
+        <activity android:name=".menu_content.tundra_child.tundra2" />
+        <activity android:name=".signin" />
+        <activity android:name=".signup"/>
     </application>
 
 </manifest>
