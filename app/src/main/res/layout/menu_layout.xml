@@ -1,90 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<RelativeLayout
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     tools:context="com.androidaudhitory.group_1.menu">
 
-    <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <RelativeLayout
+        android:id="@+id/welcomelay"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:context="com.androidaudhitory.group_1.menu"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffaa11"/>
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/signname"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_below="@+id/welcomelay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TableLayout
-            android:id="@+id/tundraimage"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:focusable="true">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <ImageButton
-                android:id="@+id/tundraimage2"
-                android:contentDescription="@string/image"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:src="@drawable/tundra" />
-
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Tundra Adventure"
-                android:textSize="20sp"
-                tools:ignore="HardcodedText,SpUsage"
-                android:textAlignment="center"
-                android:padding="20dp"/>
-        </TableLayout>
+                android:orientation="vertical">
 
-        <TableLayout
-            android:id="@+id/image2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+                <TableLayout
+                    android:id="@+id/tundraimage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:focusable="true">
 
-            <ImageButton
-                android:id="@+id/image22"
-                android:contentDescription="@string/send_to_activity"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:src="@drawable/gunung_kerinci" />
+                    <ImageButton
+                        android:id="@+id/tundraimage2"
+                        android:contentDescription="@string/image"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/tundra" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Mountainering"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="20dp"
-                tools:ignore="HardcodedText" />
-        </TableLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tundra Adventure"
+                        android:textSize="20sp"
+                        tools:ignore="HardcodedText,SpUsage"
+                        android:textAlignment="center"
+                        android:padding="20dp"/>
+                </TableLayout>
 
-        <TableLayout
-            android:id="@+id/galapagos"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+                <TableLayout
+                    android:id="@+id/image2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
 
-            <ImageButton
-                android:id="@+id/galapagos2"
-                android:contentDescription="sendToActivity"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:src="@drawable/galapagos"
-                tools:ignore="HardcodedText" />
+                    <ImageButton
+                        android:id="@+id/image22"
+                        android:contentDescription="@string/send_to_activity"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/gunung_kerinci" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Remote island"
-                android:textSize="20sp"
-                android:textAlignment="center"
-                android:padding="20dp"
-                tools:ignore="HardcodedText" />
-        </TableLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mountainering"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:padding="20dp"
+                        tools:ignore="HardcodedText" />
+                </TableLayout>
 
+                <TableLayout
+                    android:id="@+id/galapagos"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/galapagos2"
+                        android:contentDescription="sendToActivity"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:src="@drawable/galapagos"
+                        tools:ignore="HardcodedText" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Remote island"
+                        android:textSize="20sp"
+                        android:textAlignment="center"
+                        android:padding="20dp"
+                        tools:ignore="HardcodedText" />
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 
-</ScrollView>
+</RelativeLayout>
+

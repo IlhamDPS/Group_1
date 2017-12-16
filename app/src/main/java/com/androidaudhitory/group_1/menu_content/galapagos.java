@@ -10,6 +10,6 @@ public class galapagos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.halaman3_galapagos);
+        setContentView(R.layout.galapagos_minimenu_layout);
     }
 }

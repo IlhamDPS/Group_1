@@ -10,6 +10,6 @@ public class gunung_kerinci extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.halaman3_gunung_kerinci);
+        setContentView(R.layout.gunung_kerinci_minimenu_layout);
     }
 }
