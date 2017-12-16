@@ -12,7 +12,7 @@ public class tundra3minimenu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tundra3minimenu_layout);
+        setContentView(R.layout.tundra3_minimenu_layout);
 
         TableRow FR = (TableRow) findViewById(R.id.T_FR);
         FR.setOnClickListener(new View.OnClickListener()

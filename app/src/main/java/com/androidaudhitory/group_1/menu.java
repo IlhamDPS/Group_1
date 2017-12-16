@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TableLayout;
+import android.widget.TextView;
 
 import com.androidaudhitory.group_1.menu_content.galapagos;
 import com.androidaudhitory.group_1.menu_content.gunung_kerinci;
@@ -20,6 +21,12 @@ public class menu extends AppCompatActivity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu_layout);
+
+        Intent user_name = getIntent();
+        String username = user_name.getStringExtra(signin.user_name);
+
+        TextView namedisplay = (TextView) findViewById(R.id.username);
+        namedisplay.setText(username);
 
         toTundra();
 

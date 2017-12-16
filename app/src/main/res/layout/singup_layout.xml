@@ -1,8 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.androidaudhitory.group_1.signup">
+    tools:context="com.androidaudhitory.group_1.signin">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="#4245f4">
+
+        <ImageView
+            android:contentDescription="@string/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/travel_logo"
+            android:padding="30dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_below="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/alamat_email"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:layout_above="@+id/username"/>
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:inputType="text"
+            android:hint="@string/username"
+            android:layout_above="@+id/password"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/seperator"
+            android:hint="@string/password" />
+
+        <TableRow
+            android:id="@+id/seperator"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:contentDescription="@string/image"
+            android:id="@+id/signup"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/sign"
+            android:layout_below="@+id/seperator"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:textColor="@color/signname"
+            android:textSize="30dp"
+            android:layout_alignBottom="@id/signup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="12dp"
+            tools:ignore="SpUsage" />
+    </RelativeLayout>
 
 </RelativeLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarSize="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#cfcfcf"
+    tools:context="com.androidaudhitory.group_1.menu_content.tundra_child.tundra3minimenu">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:contentDescription="@string/image"
+            android:id="@+id/topimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/tundra"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="great adventure awaits you"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:layout_alignTop="@+id/topimage"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="HardcodedText" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topimage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp">
+
+            <TableRow
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/T_FR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:contentDescription="@string/image"
+                    android:id="@+id/pr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/penguin"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Penguins\nlots of penguins"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/T_SR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/T_FR"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageButton
+                    android:contentDescription="@string/image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/polar_bear"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Polar bear\nlots of polar bear"
+                    android:textSize="20sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="6dp"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/T_TR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/T_SR"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageButton
+                    android:contentDescription="@string/image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/wolf"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wofl\na sleeping wolf"
+                    android:textSize="20sp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    tools:ignore="HardcodedText" />
+            </TableRow>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
+
